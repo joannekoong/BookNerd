@@ -11,3 +11,13 @@ body {
 td {
   padding-left: 25px; 
 }
+
+.btn {
+	
+	position: absolute;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    bottom:10px;
+
+}
