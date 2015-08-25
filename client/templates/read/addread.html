@@ -1,19 +1,51 @@
 <template name="addRead">
   <form class="main form page">
+  
     <div class="form-group">
-      <label class="control-label" for="url">URL</label>
+      <label class="control-label" for="author">Author</label>
       <div class="controls">
-          <input name="url" id="url" type="text" placeholder="Your URL" class="form-control"/>
+          <input name="author" id="author" type="text" value="" placeholder="author" class="form-control"/>
       </div>
     </div>
+
     <div class="form-group">
       <label class="control-label" for="title">Title</label>
       <div class="controls">
-          <input name="title" id="title" type="text"  placeholder="Name your post" class="form-control"/>
+          <input name="title" id="title" type="text" value="" placeholder="title" class="form-control"/>
       </div>
     </div>
-    <input type="submit" value="Submit" class="btn btn-primary submit"/>
-    <hr/>
-    <a class="btn btn-danger delete" href="#">Delete post</a>
+
+    <div class="form-group">
+      <label class="control-label" for="genre">Genre</label>
+      <div class="controls">
+          <input name="genre" id="genre" type="text" value="" placeholder="genre" class="form-control"/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label" for="pages">Pages</label>
+      <div class="pages">
+          <input name="pages" id="pages" type="text" value="" placeholder="pages" class="form-control"/>
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <label class="control-label" for="start">Start Date</label>
+      <div class="controls">
+          <input name="start" type="text" value="" placeholder="start date" class="form-control" id="start-datepicker" />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label" for="end">End Date</label>
+      <div class="controls">
+          <input name="end" id="end-datepicker" type="text" value="" placeholder="end date" class="form-control"/>
+      </div>
+    </div>
+
+
+    <input type="submit" value="Submit" class="btn btn-info"/>
+
   </form>
 </template>

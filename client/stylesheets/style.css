@@ -12,7 +12,7 @@ td {
   padding-left: 25px; 
 }
 
-.btn {
+#addbutton {
 	
 	position: absolute;
     left: 50%;
@@ -20,4 +20,20 @@ td {
     margin-left: -50px;
     bottom:10px;
 
+}
+
+.btn-info {
+  width: 100px;
+  position:relative;
+  left: 45%;
+  
+}
+
+.main {
+  width: 70%;
+  margin:0 auto;
+}
+
+.form-control {
+  width: 70%;
 }
