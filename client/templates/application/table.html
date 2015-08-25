@@ -14,23 +14,14 @@
 </template> 
 
 <template name="tabledata"> 
-	 
+	{{#each read}}
 	<tr>
-		<td>Kurt Vonnegut</td>
-		<td>Slaughterhouse Five</td> 
-    	<td>Sci-Fi</td>
-    	<td> 355 </td>
-    	<td> August 13 </td>
-    	<td> August 25 </td>
+		<td>{{author}}</td>
+		<td>{{title}}</td> 
+    	<td>{{genre}}</td>
+    	<td>{{pages}}</td>
+    	<td>{{start}}</td>
+    	<td>{{end}}</td>
 	</tr>
-		<tr>
-		<td>John Irving</td>
-		<td>Cider House Rules</td> 
-    	<td>Realistic Fiction</td>
-    	<td> 431 </td>
-    	<td> August 22 </td>
-    	<td> August 29 </td>
-	</tr>
-	
-
+	{{/each}}
 </template>
