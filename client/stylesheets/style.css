@@ -2,3 +2,12 @@ body {
   background: #ddd;
   color: #666666; 
 }
+
+.container {
+  width: 70%;
+}
+
+
+td {
+  padding-left: 25px; 
+}
