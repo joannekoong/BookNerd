@@ -48,3 +48,30 @@
 	</tr>
 	{{/each}}
 </template>
+
+
+
+
+<template name="tableheader_willread">
+		<thead>
+			<tr>
+				<th> Author </th>
+				<th> Title </th>
+				<th> Genre </th>
+				<th> Pages </th>
+				
+			</tr>
+		</thead>		
+</template> 
+
+<template name="tabledata_willread"> 
+	{{#each reading}}
+	<tr>
+		<td>{{author}}</td>
+		<td>{{title}}</td> 
+    	<td>{{genre}}</td>
+    	<td>{{pages}}</td>
+    	
+	</tr>
+	{{/each}}
+</template>
