@@ -1,5 +1,4 @@
-<template name="tableheader">
-	 
+<template name="tableheader_read">
 		<thead>
 			<tr>
 				<th> Author </th>
@@ -9,11 +8,10 @@
 				<th> Start </th>
 				<th> End </th>
 			</tr>
-		</thead>
-		
+		</thead>		
 </template> 
 
-<template name="tabledata"> 
+<template name="tabledata_read"> 
 	{{#each read}}
 	<tr>
 		<td>{{author}}</td>
@@ -22,6 +20,31 @@
     	<td>{{pages}}</td>
     	<td>{{start}}</td>
     	<td>{{end}}</td>
+	</tr>
+	{{/each}}
+</template>
+
+
+<template name="tableheader_reading">
+		<thead>
+			<tr>
+				<th> Author </th>
+				<th> Title </th>
+				<th> Genre </th>
+				<th> Pages </th>
+				<th> Start </th>
+			</tr>
+		</thead>		
+</template> 
+
+<template name="tabledata_reading"> 
+	{{#each reading}}
+	<tr>
+		<td>{{author}}</td>
+		<td>{{title}}</td> 
+    	<td>{{genre}}</td>
+    	<td>{{pages}}</td>
+    	<td>{{start}}</td>
 	</tr>
 	{{/each}}
 </template>

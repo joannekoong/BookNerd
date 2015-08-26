@@ -1,0 +1,44 @@
+<template name="addReading">
+  <form class="main form page">
+  
+    <div class="form-group">
+      <label class="control-label" for="author">Author</label>
+      <div class="controls">
+          <input name="author" id="author" type="text" value="" placeholder="author" class="form-control"/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label" for="title">Title</label>
+      <div class="controls">
+          <input name="title" id="title" type="text" value="" placeholder="title" class="form-control"/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label" for="genre">Genre</label>
+      <div class="controls">
+          <input name="genre" id="genre" type="text" value="" placeholder="genre" class="form-control"/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label" for="pages">Pages</label>
+      <div class="pages">
+          <input name="pages" id="pages" type="text" value="" placeholder="pages" class="form-control"/>
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <label class="control-label" for="start">Start Date</label>
+      <div class="controls">
+          <input name="start" type="text" value="" placeholder="start date" class="form-control" id="start-datepicker" />
+      </div>
+    </div>
+
+
+    <input type="submit" value="Submit" class="btn btn-info"/>
+
+  </form>
+</template>
